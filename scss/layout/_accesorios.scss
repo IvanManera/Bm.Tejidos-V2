@@ -1,0 +1,114 @@
+
+header {
+    grid-area: header;
+    background-color: hwb(0 0% 100%);
+    padding: 30px;
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    flex-direction: left;
+    align-items: center;
+    font-family: Nechua;
+}
+nav a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: left;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.Comienzodepag{ 
+    left: 125px;
+    position: absolute;
+    font-size: 40px;
+    top: 25px;
+}
+
+main, section {
+display: flex;
+grid-template-columns: 100px 100px 100px;
+grid-template-rows: 100px 100px 100px;
+padding-top: 10px;
+padding-bottom: 10px;
+column-gap: 100px;
+row-gap: 30px;
+object-fit: fill;
+flex-wrap: wrap; 
+font-family: Nechua;
+}
+.Imagen__dentro_caja{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px; 
+    border: 5px solid black;
+    box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen{
+    position: relative;
+    top: -10px;
+    background-color: beige;
+    padding-top: 2px;
+    border-radius: 5%;
+    border-style: dotted;
+    text-align: center;
+    cursor: pointer;
+    transition-delay: 3ms;
+}
+.textoimagen:hover{
+    border-style: dashed;
+}
+.p {
+    text-decoration: none;
+    background-color: black;
+}
+footer {
+    text-align: center;
+    background-color: skyblue;
+    font-size: 19px;
+    color: aliceblue;
+    width: 100%;
+    height: 90px;
+    position: relative; 
+    bottom: 0; 
+    z-index: 10;
+    font-family: Nechua;
+}
+
+.LogoComienzodepag {
+    position: absolute;
+    left: 50px;
+    top: 19px;
+}
+.LogoComienzodepag img {
+    width: 70px;
+    height: 70px;
+}
+
+.MensajeEntrada{
+    background-color: blanchedalmond;
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    border-radius: 6%;
+    padding-top: 9px;
+    position: relative;
+    bottom: -40px;
+    font-size: 24px;    
+    border-style:ridge;
+}

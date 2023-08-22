@@ -1,0 +1,19 @@
+@import url(//imagenes/front-view-yarn-basket-with-copy-space.jpg);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Nechua;
+    src: url(../Imagenes/Neucha-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    background: linear-gradient(to left, #87CEEB, rgb(117, 117, 165));
+  }
