@@ -1,0 +1,39 @@
+header {
+    grid-area: header;
+    background-color: hwb(0 0% 100%);
+    padding: 30px;
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    flex-direction: left;
+    align-items: center;
+    font-family: Nechua;
+}
+nav a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: left;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul a {
+    color: #ffff;
+    font-size: 20px;
+}
+
+.Comienzodepag{ 
+    left: 125px;
+    position: absolute;
+    font-size: 40px;
+    top: 25px;
+}
