@@ -1,4 +1,9 @@
-
+@font-face {
+    font-family: Nechua;
+    src: url(../imagenes/Neucha-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 header {
     grid-area: header;
     background-color: hwb(0 0% 100%);
@@ -113,3 +118,9 @@ footer {
     border-style:ridge;
 }
 
+@font-face {
+    font-family: Nechua;
+    src: url(../imagenes/Neucha-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

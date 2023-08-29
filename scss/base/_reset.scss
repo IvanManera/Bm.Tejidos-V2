@@ -1,14 +1,17 @@
-@import url(//imagenes/front-view-yarn-basket-with-copy-space.jpg);
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 @font-face {
-    font-family: Nechua;
-    src: url(../Imagenes/Neucha-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Nechua';
+  src: url("../imagenes/Neucha-Regular.ttf")
+}
+
+body html {
+  font-family: "Neucha-Regular, Nechua";
+  height: 100%;
+  font-size: 100%;
 }
 html, body {
     height: 100%;

@@ -1,4 +1,3 @@
-@import url(//imagenes/front-view-yarn-basket-with-copy-space.jpg);
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +5,15 @@
 }
 
 @font-face {
-  font-family: Nechua;
-  src: url(../Imagenes/Neucha-Regular.ttf);
-  font-weight: normal;
-  font-style: normal;
+  font-family: "Nechua";
+  src: url("../imagenes/Neucha-Regular.ttf");
 }
+body html {
+  font-family: "Neucha-Regular, Nechua";
+  height: 100%;
+  font-size: 100%;
+}
+
 html, body {
   height: 100%;
 }
@@ -73,24 +76,27 @@ nav ul a {
   top: 25px;
 }
 
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 main, section {
   display: flex;
   grid-template-columns: 90px 90px 90px 90px;
   grid-template-rows: 90px 90px 90px 90px;
   padding-top: 10px;
   padding-bottom: 10px;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
   row-gap: 30px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   flex-wrap: wrap;
   font-family: Nechua;
   justify-content: space-evenly;
 }
 main .main, main .section, section .main, section .section {
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  column-gap: 30px;
 }
 
 .Imagen__dentro_caja {
@@ -153,6 +159,12 @@ main .main, main .section, section .main, section .section {
   border-style: ridge;
 }
 
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 header {
   grid-area: header;
   background-color: hwb(0 0% 100%);
@@ -200,11 +212,9 @@ main, section {
   grid-template-rows: 100px 100px 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   row-gap: 30px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   flex-wrap: wrap;
   font-family: Nechua;
 }
@@ -275,6 +285,12 @@ footer {
   border-style: ridge;
 }
 
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 header {
   grid-area: header;
   background-color: hwb(0 0% 100%);
@@ -322,11 +338,9 @@ main, section {
   grid-template-rows: 100px 100px 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   row-gap: 30px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   flex-wrap: wrap;
   font-family: Nechua;
 }
@@ -397,6 +411,18 @@ footer {
   border-style: ridge;
 }
 
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 header {
   grid-area: header;
   background-color: hwb(0 0% 100%);
@@ -453,6 +479,12 @@ span {
   font-size: bold;
 }
 
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 header {
   grid-area: header;
   background-color: hwb(0 0% 100%);
@@ -500,11 +532,9 @@ main, section {
   grid-template-rows: 100px 100px 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   row-gap: 30px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   flex-wrap: wrap;
   font-family: Nechua;
 }
@@ -575,6 +605,12 @@ footer {
   border-style: ridge;
 }
 
+@font-face {
+  font-family: Nechua;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
 header {
   grid-area: header;
   background-color: hwb(0 0% 100%);
@@ -622,11 +658,9 @@ main, section {
   grid-template-rows: 100px 100px 100px;
   padding-top: 10px;
   padding-bottom: 10px;
-  -moz-column-gap: 100px;
-       column-gap: 100px;
+  column-gap: 100px;
   row-gap: 30px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
   flex-wrap: wrap;
   font-family: Nechua;
 }
@@ -725,4 +759,6 @@ footer {
   p {
     font-size: 16px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

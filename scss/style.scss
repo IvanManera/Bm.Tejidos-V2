@@ -1,9 +1,9 @@
 //import base
-@import 'base/reset';
-@import 'base/vars';
+@import "base/reset";
+@import "base/vars";
 //import components
-@import 'components/footer';
-@import 'components/navbar';
+@import "components/footer";
+@import "components/navbar";
 //import layout
 @import "layout/index";
 @import "layout/accesorios";
@@ -11,6 +11,5 @@
 @import "layout/contactos";
 @import "layout/paraperros";
 @import "layout/ropa";
-
 //mediaquery
 @import "base/mediaquery";

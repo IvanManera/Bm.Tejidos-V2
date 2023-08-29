@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Nechua;
+    src: url(../imagenes/Neucha-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 main, section {
     display: flex;
     grid-template-columns: 90px 90px 90px 90px;
