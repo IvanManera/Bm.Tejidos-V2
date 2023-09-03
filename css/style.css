@@ -1,0 +1,408 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha:regular);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body html {
+  font-family: "Neucha-Regular, Neucha";
+  height: 100%;
+  font-size: 100%;
+  background: linear-gradient(to left, #87CEEB, rgb(117, 117, 165));
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(to left, #87CEEB, rgb(117, 117, 165));
+}
+
+footer {
+  font-family: "Neucha-Regular, Neucha";
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding: 15px 0;
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconosfooter {
+  display: flex;
+  gap: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+header {
+  grid-area: header;
+  background-color: hwb(0 0% 100%);
+  padding: 30px;
+  height: 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: right;
+  flex-direction: left;
+  align-items: center;
+  font-family: Neucha;
+}
+nav a {
+  color: white;
+  font-size: 20px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-direction: left;
+  justify-content: center;
+  align-items: center;
+}
+
+.Comienzodepag {
+  left: 125px;
+  position: absolute;
+  font-size: 40px;
+  top: 25px;
+}
+
+.LogoComienzodepag {
+  position: absolute;
+  left: 50px;
+  top: 19px;
+}
+
+.LogoComienzodepag img {
+  width: 70px;
+  height: 70px;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+main, section {
+  display: flex;
+  grid-template-columns: 90px 90px 90px 90px;
+  grid-template-rows: 90px 90px 90px 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-gap: 30px;
+  row-gap: 30px;
+  object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+  justify-content: space-evenly;
+}
+main .main, main .section, section .main, section .section {
+  column-gap: 30px;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.Imagen__dentro_caja:hover {
+  cursor: pointer;
+  height: 300px;
+  width: 300px;
+  transition-delay: 180ms;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+.LogoComienzodepag {
+  position: absolute;
+  left: 50px;
+  top: 19px;
+}
+
+.LogoComienzodepag img {
+  width: 70px;
+  height: 70px;
+}
+
+.MensajeEntrada {
+  background-color: blanchedalmond;
+  text-align: center;
+  width: 500px;
+  height: 150px;
+  border-radius: 6%;
+  padding-top: 9px;
+  position: relative;
+  bottom: -40px;
+  font-size: 24px;
+  border-style: ridge;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-gap: 100px;
+  row-gap: 30px;
+  object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-gap: 100px;
+  row-gap: 30px;
+  object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+span {
+  font-size: large;
+}
+span a {
+  color: inherit;
+}
+
+.form-label {
+  font-size: large;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-gap: 100px;
+  row-gap: 30px;
+  object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+@font-face {
+  font-family: Neucha;
+  src: url(../imagenes/Neucha-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+main, section {
+  display: flex;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-gap: 100px;
+  row-gap: 30px;
+  object-fit: fill;
+  flex-wrap: wrap;
+  font-family: Neucha;
+}
+
+.Imagen__dentro_caja {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  border: 5px solid black;
+  box-shadow: 0 2px 4px grey;
+}
+
+.textoimagen {
+  position: relative;
+  top: -10px;
+  background-color: beige;
+  padding-top: 2px;
+  border-radius: 5%;
+  border-style: dotted;
+  text-align: center;
+  cursor: pointer;
+  transition-delay: 3ms;
+}
+
+.textoimagen:hover {
+  border-style: dashed;
+}
+
+.p {
+  text-decoration: none;
+  background-color: black;
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    height: 200px;
+  }
+  ul {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .MensajeEntrada {
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 420px) {
+  ul li a {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
